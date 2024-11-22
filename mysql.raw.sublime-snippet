@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+MySQL.rawExecute(${1:query}, {${2:args}}, function(response)
+    print(json.encode(response, { indent = true, sort_keys = true }))
+end)
+    ]]></content>
+    <tabTrigger>mysql.raw</tabTrigger>
+    <description>SERVER/rawExecute can be used to execute frequently called queries faster and accepts multiple sets of parameters to be used with a single query.</description>
+	<scope>source.lua</scope>
+</snippet>

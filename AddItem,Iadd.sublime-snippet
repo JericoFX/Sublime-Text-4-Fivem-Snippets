@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:AddItem(--[[source,item,amount?,slot?,info?]])
+    ]]></content>
+    <tabTrigger>AddItem,Iadd</tabTrigger>
+    <description>SERVER/ Add an item to the inventory of the player</description>
+	<scope>source.lua</scope>
+</snippet>

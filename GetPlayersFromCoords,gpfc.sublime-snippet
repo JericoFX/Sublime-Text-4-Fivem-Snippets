@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local ${1:ClosestPlayers}= QBCore.Functions.GetPlayersFromCoords(${2:coords},${3:distance})
+    ]]></content>
+    <tabTrigger>GetPlayersFromCoords,gpfc</tabTrigger>
+    <description>CLIENT/GetPlayersFromCoords This return a table with the player source.</description>
+	<scope>source.lua</scope>
+</snippet>

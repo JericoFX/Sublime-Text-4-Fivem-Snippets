@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#getitem
+exports.ox_inventory:GetItem(${1:inv}, ${2:item}, ${3:metadata}, ${4:returnsCount})
+    ]]></content>
+    <tabTrigger>oxgetitem</tabTrigger>
+    <description>SERVER/Returns generic item data from the specified inventory, with the total count.</description>
+	<scope>source.lua</scope>
+</snippet>

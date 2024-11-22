@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.CreateCallback(${1:name},function(source,cb,${2:args}) 
+
+end)
+
+    ]]></content>
+    <tabTrigger>CreateCallback,CCallback</tabTrigger>
+    <description>SERVER/Create a callback and return a value</description>
+	<scope>source.lua</scope>
+</snippet>

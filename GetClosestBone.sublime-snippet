@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local bone,coords,distance = QBCore.Functions.GetClosestBone(${1:entity},${2:list})
+    ]]></content>
+    <tabTrigger>GetClosestBone</tabTrigger>
+    <description>CLIENT/GetClosestBone pass an entity and a list of bones and return the most closest to the player</description>
+	<scope>source.lua</scope>
+</snippet>

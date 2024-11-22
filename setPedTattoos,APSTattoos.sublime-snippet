@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["fivem-appearance"]:setPedTattoos(--[[ped,{}]])
+    ]]></content>
+    <tabTrigger>setPedTattoos,APSTattoos</tabTrigger>
+    <description>CLIENT/ Set Player Tattoos</description>
+	<scope>source.lua</scope>
+</snippet>

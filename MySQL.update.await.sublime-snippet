@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/transaction
+local Promise = MySQL.update.await(${1:query}, {${2:args}})
+    ]]></content>
+    <tabTrigger>MySQL.update.await</tabTrigger>
+    <description>SERVER/Returns the number of affected rows by the query.Promise</description>
+	<scope>source.lua</scope>
+</snippet>

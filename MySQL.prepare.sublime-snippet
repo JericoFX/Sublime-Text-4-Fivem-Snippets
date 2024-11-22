@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/prepare 
+MySQL.prepare(${1:query}, {${2:args}}, function(result)
+  
+end)
+    ]]></content>
+    <tabTrigger>MySQL.prepare</tabTrigger>
+    <description>SERVER/Prepare can be used to execute frequently called queries faster and accepts multiple sets of parameters to be used with a single query.</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:HasItem(--[[source, items, amount]])
+    ]]></content>
+    <tabTrigger>hasitem,Ihas</tabTrigger>
+    <description>SERVER/ Check if the player has an item</description>
+	<scope>source.lua</scope>
+</snippet>

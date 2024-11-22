@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["ps-zones"]:CreatePolyZone("${name:requeried}", points --[[,data is optional]])
+    ]]></content>
+    <tabTrigger>PSPoly,PSPzone</tabTrigger>
+    <description>CLIENT/ Create a PS:PolyZone</description>
+	<scope>source.lua</scope>
+</snippet>

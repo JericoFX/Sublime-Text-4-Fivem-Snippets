@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+CreateThread(function() 
+
+end)
+    ]]></content>
+    <tabTrigger>CT</tabTrigger>
+    <description>CLIENT/SERVER Create a Thread</description>
+	<scope>source.lua</scope>
+</snippet>

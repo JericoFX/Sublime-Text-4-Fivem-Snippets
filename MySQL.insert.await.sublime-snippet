@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/insert 
+ local ${1:variable} = MySQL.insert.await(${2:query}, {${3:args}})
+    ]]></content>
+    <tabTrigger>MySQL.insert.await</tabTrigger>
+    <description>SERVER/Inserts a new entry into the database and returns the insert id for the row, if valid. and wait for a promise</description>
+	<scope>source.lua</scope>
+</snippet>

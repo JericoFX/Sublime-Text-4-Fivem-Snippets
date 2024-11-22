@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:GetItemByName(--[[source, item]])
+    ]]></content>
+    <tabTrigger>GetItemByName,IGname</tabTrigger>
+    <description>SERVER/ Get the item from the inventory of the player with the provided source by the name of the item</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:openNearbyInventory()
+    ]]></content>
+    <tabTrigger>oxopennearinv</tabTrigger>
+    <description>CLIENT/If possible opens the nearby player's inventory.</description>
+	<scope>source.lua</scope>
+</snippet>

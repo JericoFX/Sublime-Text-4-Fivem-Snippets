@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Debug(${1:jsonobject})
+    ]]></content>
+    <tabTrigger>Debug</tabTrigger>
+    <description>CLIENT/Debug Print in server console a table or value</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.DrawText(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:scale}, ${6:r}, ${7:g}, ${8:b}, ${9:alpha}, ${10:text})
+    ]]></content>
+    <tabTrigger>DrawText</tabTrigger>
+    <description>CLIENT/DrawText</description>
+	<scope>source.lua</scope>
+</snippet>

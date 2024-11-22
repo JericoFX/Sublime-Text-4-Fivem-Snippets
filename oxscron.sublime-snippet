@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Cron/Server#cron-expression
+lib.cron.new(expression, job, options)
+
+    ]]></content>
+    <tabTrigger>oxscron</tabTrigger>
+    <description>SERVER/ OX Cron</description>
+	<scope>source.lua</scope>
+</snippet>

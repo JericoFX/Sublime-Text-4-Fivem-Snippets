@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Callback/Lua/Client#libcallbackawait
+lib.callback.register(${1:event}, function(source,...)
+--
+end)
+
+    ]]></content>
+    <tabTrigger>oxscr</tabTrigger>
+    <description>SERVER/ OX Callback Register</description>
+	<scope>source.lua</scope>
+</snippet>

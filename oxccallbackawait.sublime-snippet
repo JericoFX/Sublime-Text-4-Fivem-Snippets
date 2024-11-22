@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Callback/Lua/Client#libcallbackawait
+lib.callback.await(${1:name}, ${2:delay}, ...)
+    ]]></content>
+    <tabTrigger>oxccallbackawait</tabTrigger>
+    <description>Client/The current coroutine is yielded until a response is received.</description>
+	<scope>source.lua</scope>
+</snippet>

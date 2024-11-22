@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local Player = QBCore.Functions.GetPlayerByPhone(${1:phoneNumber})
+
+    ]]></content>
+    <tabTrigger>GetPlayerByPhone</tabTrigger>
+    <description>SERVER/Return all the data from the respective phone</description>
+	<scope>source.lua</scope>
+</snippet>

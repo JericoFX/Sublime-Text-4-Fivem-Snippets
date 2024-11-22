@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local count = QBCore.Functions.SetEntityBucket(${1:entity},${2:buket})
+
+    ]]></content>
+    <tabTrigger>SetEntityBucket</tabTrigger>
+    <description>SERVER/Will set any entity into the provided bucket, for example peds / vehicles / props / etc.</description>
+	<scope>source.lua</scope>
+</snippet>

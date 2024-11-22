@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#cancarryitem
+exports.ox_inventory:CanCarryItem(${1:inv}, ${2:item}, ${3:count}, ${4:metadata})
+    ]]></content>
+    <tabTrigger>oxcancarryitem</tabTrigger>
+    <description>SERVER/Returns true or false depending if the inventory can carry the specified item.</description>
+	<scope>source.lua</scope>
+</snippet>

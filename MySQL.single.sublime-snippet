@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/single
+MySQL.single(${1:query}, {${2:args}}, function(result)
+
+end)
+    ]]></content>
+    <tabTrigger>MySQL.single</tabTrigger>
+    <description>SERVER/Returns the columns for a single row.</description>
+	<scope>source.lua</scope>
+</snippet>

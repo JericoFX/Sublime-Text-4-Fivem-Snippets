@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+RegisterCommand('+${1:CommandName}', function()
+end, false)
+
+RegisterCommand('-${1:CommandName}', function()
+end, false)
+
+RegisterKeyMapping('+${1:CommandName}', '${2:Description}', '${3:type}', '${4:KeyToPress}')
+    ]]></content>
+    <tabTrigger>KeyMapping</tabTrigger>
+    <description>CLIENT/RegisterKeyMapping</description>
+	<scope>source.lua</scope>
+</snippet>

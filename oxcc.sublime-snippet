@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Callback/Lua/Client#trigger-server-callback
+lib.callback(${1:event}, ${false:default}, function(ret)
+  
+end)
+    ]]></content>
+    <tabTrigger>oxcc</tabTrigger>
+    <description>CLIENT/ OX Callback</description>
+	<scope>source.lua</scope>
+</snippet>

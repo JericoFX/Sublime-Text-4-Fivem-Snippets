@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
+
+end)
+
+    ]]></content>
+    <tabTrigger>OnPlayerLoaded,OPL,opl</tabTrigger>
+    <description>OnPlayerLoaded</description>
+	<scope>source.lua</scope>
+</snippet>

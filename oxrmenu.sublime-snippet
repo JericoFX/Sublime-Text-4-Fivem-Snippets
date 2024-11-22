@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/menu#libregistermenu
+--https://overextended.dev/ox_lib/Modules/Interface/Client/menu#usage-example
+lib.registerMenu({
+  id = ${1:id},
+  title = ${2:title},
+  position = 'top-right',
+  options = {}
+})
+    ]]></content>
+    <tabTrigger>oxrmenu</tabTrigger>
+    <description>OX Register Menu</description>
+	<scope>source.lua</scope>
+</snippet>

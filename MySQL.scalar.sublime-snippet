@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/scalar
+MySQL.scalar(${1:query}, {${2:args}}, function(return)
+
+end)
+    ]]></content>
+    <tabTrigger>MySQL.scalar</tabTrigger>
+    <description>SERVER/Returns the first column for a single row.</description>
+	<scope>source.lua</scope>
+</snippet>

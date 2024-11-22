@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#registerstash
+exports.ox_inventory:RegisterStash(${1:id}, ${2:label}, ${3:slots}, ${4:maxWeight}, ${5:owner}, ${6:groups}, ${7:coords})
+    ]]></content>
+    <tabTrigger>oxregisterstash</tabTrigger>
+    <description>SERVER/Creates a new custom stash.</description>
+	<scope>source.lua</scope>
+</snippet>

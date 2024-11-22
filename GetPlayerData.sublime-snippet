@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local ${1:variable} = QBCore.Functions.GetPlayerData()
+    ]]></content>
+    <tabTrigger>GetPlayerData</tabTrigger>
+    <description>CLIENT/GetPlayerData</description>
+	<scope>source.lua</scope>
+</snippet>

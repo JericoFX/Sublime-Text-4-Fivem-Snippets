@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["fivem-appearance"]:setPlayerAppearance(--[[/appareance/]])
+    ]]></content>
+    <tabTrigger>setPlayerAppearance,APSSet</tabTrigger>
+    <description>CLIENT/ Set Player Appearance</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:GetItemCount(${1:itemName}, ${2:metadata}, ${3:strict})
+    ]]></content>
+    <tabTrigger>oxinvGetItemCount</tabTrigger>
+    <description>CLIENT/Get the total item count for all items in the player's inventory with the given name and metadata.</description>
+	<scope>source.lua</scope>
+</snippet>

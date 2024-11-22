@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local Players = QBCore.Functions.GetPlayers()
+
+    ]]></content>
+    <tabTrigger>GetPlayers</tabTrigger>
+    <description>SERVER/Return all players</description>
+	<scope>source.lua</scope>
+</snippet>

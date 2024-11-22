@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/context#libregistercontext
+lib.registerContext({
+  id = ${1:id},
+  title = ${2:title},
+  canClose = ${3:canClose},
+  options = {}
+})
+lib.showContext(${1:id})
+    ]]></content>
+    <tabTrigger>oxrcon</tabTrigger>
+    <description>Ox Register and Show a Context menu</description>
+	<scope>source.lua</scope>
+</snippet>

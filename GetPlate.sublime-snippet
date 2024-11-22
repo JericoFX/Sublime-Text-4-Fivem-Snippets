@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local plate = QBCore.Functions.GetPlate(${1:vehicle})
+    ]]></content>
+    <tabTrigger>GetPlate</tabTrigger>
+    <description>CLIENT/GetPlate return the plate of the passed vehicle</description>
+	<scope>source.lua</scope>
+</snippet>

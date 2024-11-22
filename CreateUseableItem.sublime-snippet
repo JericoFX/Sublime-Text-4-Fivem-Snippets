@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.CreateUseableItem(${1:item},cb)
+
+    ]]></content>
+    <tabTrigger>CreateUseableItem</tabTrigger>
+    <description>SERVER/Create a item</description>
+	<scope>source.lua</scope>
+</snippet>

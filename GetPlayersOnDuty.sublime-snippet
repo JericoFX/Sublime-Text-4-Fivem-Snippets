@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local players,count= QBCore.Functions.GetPlayersOnDuty(${1:job})
+
+    ]]></content>
+    <tabTrigger>GetPlayersOnDuty</tabTrigger>
+    <description>SERVER/Return an array players and the amount of players on duty for the selected job</description>
+	<scope>source.lua</scope>
+</snippet>

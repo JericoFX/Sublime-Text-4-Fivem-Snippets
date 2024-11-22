@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+RegisterNetEvent('QBCore:Client:OnJobUpdate', function(job)
+
+end)
+    ]]></content>
+    <tabTrigger>OnJobUpdate,OJU,oju</tabTrigger>
+    <description>On Job Update Event</description>
+	<scope>source.lua</scope>
+</snippet>

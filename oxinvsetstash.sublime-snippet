@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:setStashTarget(${1:id}, ${2:owner})
+    ]]></content>
+    <tabTrigger>oxinvsetstash</tabTrigger>
+    <description>CLIENT/Forces the secondary-inventory key to open the passed inventory. Can be useful to enable inventory access while standing inside a marker.</description>
+	<scope>source.lua</scope>
+</snippet>

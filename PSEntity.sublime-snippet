@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["ps-zones"]:CreateEntityZone("${name:requeried}", ${2:entity} --[[,data optional]])
+    ]]></content>
+    <tabTrigger>PSEntity</tabTrigger>
+    <description>CLIENT/ Create a PS:Entity Zone</description>
+	<scope>source.lua</scope>
+</snippet>

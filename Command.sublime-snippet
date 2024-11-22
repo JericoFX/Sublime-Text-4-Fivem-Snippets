@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+RegisterCommand(${1:name},function(source,args) 
+
+end)
+    ]]></content>
+    <tabTrigger>Command</tabTrigger>
+    <description>SERVER/CLIENT Register a command</description>
+	<scope>source.lua</scope>
+</snippet>

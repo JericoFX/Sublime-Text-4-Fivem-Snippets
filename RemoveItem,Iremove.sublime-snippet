@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:RemoveItem(--[[source, item, amount?, slot?]])
+    ]]></content>
+    <tabTrigger>RemoveItem,Iremove</tabTrigger>
+    <description>SERVER/ Remove an item from the inventory of the player</description>
+	<scope>source.lua</scope>
+</snippet>

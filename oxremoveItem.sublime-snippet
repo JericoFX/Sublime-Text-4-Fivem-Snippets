@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#RemoveItem
+exports.ox_inventory:RemoveItem(${1:inv}, ${2:item}, ${3:count}, ${4:metadata}, ${5:slot})
+    ]]></content>
+    <tabTrigger>oxremoveItem</tabTrigger>
+    <description>SERVER/Removes the specified item from the specified inventory.</description>
+	<scope>source.lua</scope>
+</snippet>

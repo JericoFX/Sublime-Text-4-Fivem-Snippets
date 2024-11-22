@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#additem
+exports.ox_inventory:AddItem(${1:inv}, ${2:item}, ${3:count}, ${4:metadata}, ${5:slot}, ${6:cb})
+    ]]></content>
+    <tabTrigger>oxaddItem</tabTrigger>
+    <description>SERVER/Adds an item into the specified inventory.</description>
+	<scope>source.lua</scope>
+</snippet>

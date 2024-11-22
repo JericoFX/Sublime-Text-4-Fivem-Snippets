@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local count = QBCore.Functions.SetPlayerBucket(${1:source},${2:buket})
+
+    ]]></content>
+    <tabTrigger>GetBucketObjects</tabTrigger>
+    <description>SERVER/Will set the provided player id / source into the provided bucket id, return true if success or false</description>
+	<scope>source.lua</scope>
+</snippet>

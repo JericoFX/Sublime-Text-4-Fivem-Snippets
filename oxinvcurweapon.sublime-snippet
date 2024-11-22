@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:getCurrentWeapon()
+    ]]></content>
+    <tabTrigger>oxinvcurweapon</tabTrigger>
+    <description>CLIENT/Get data for the currently equipped weapon.</description>
+	<scope>source.lua</scope>
+</snippet>

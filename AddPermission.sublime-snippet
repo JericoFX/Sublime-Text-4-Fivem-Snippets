@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.AddPermission(${1:source},${2:permission})
+    ]]></content>
+    <tabTrigger>AddPermission</tabTrigger>
+    <description>SERVER/Add Permission for a player, always create the permission on the server.cfg</description>
+	<scope>source.lua</scope>
+</snippet>

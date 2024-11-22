@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["ps-zones"]:CreateCircleZone("${name:requeried}", vector3(${2:x},${3:y},${4:z}), ${5:radius} --[[,data optional]])
+    ]]></content>
+    <tabTrigger>PSCircle</tabTrigger>
+    <description>CLIENT/ Create a PS:CircleZone</description>
+	<scope>source.lua</scope>
+</snippet>

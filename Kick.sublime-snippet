@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.Kick(${1:source},${2:reason},${3:setKickReason},${4:deferrals})
+
+    ]]></content>
+    <tabTrigger>Kick</tabTrigger>
+    <description>SERVER/Kick a player from the server</description>
+	<scope>source.lua</scope>
+</snippet>

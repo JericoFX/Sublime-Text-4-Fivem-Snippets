@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local props = QBCore.Functions.GetVehicleProperties(${1:vehicle})
+    ]]></content>
+    <tabTrigger>GetVehicleProperties,gvp</tabTrigger>
+    <description>CLIENT/GetVehicleProperties return all the properties of the passed vehicle or return null</description>
+	<scope>source.lua</scope>
+</snippet>

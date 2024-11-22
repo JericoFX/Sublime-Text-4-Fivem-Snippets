@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/query
+MySQL.query(${1:query}, {${2:args}}, function(result)
+
+end)
+    ]]></content>
+    <tabTrigger>MySQL.query</tabTrigger>
+    <description>SERVER/Generic function that can be utilised for any query.</description>
+	<scope>source.lua</scope>
+</snippet>

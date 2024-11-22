@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/AddCommand/Server
+lib.addCommand(${1:commandName}, {
+    help = ${2:help},
+    params = {
+        --{
+           -- name = 'target',
+           -- type = 'playerId',
+          --  help = 'Target player\'s server id',
+        --},
+    },
+    restricted = 'group.admin'
+}, function(source, args, raw)
+
+end)
+    ]]></content>
+    <tabTrigger>oxacomm</tabTrigger>
+    <description>SERVER / OX Add command</description>
+	<scope>source.lua</scope>
+</snippet>

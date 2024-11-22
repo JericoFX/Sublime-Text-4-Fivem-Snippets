@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/update
+MySQL.update(${1:query}, {${2:args}}, function(affectedRows)
+
+end)
+    ]]></content>
+    <tabTrigger>MySQL.update</tabTrigger>
+    <description>SERVER/Returns the number of affected rows by the query.</description>
+	<scope>source.lua</scope>
+</snippet>

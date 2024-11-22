@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+RegisterServerEvent(${1:name},function(args) 
+
+end)
+    ]]></content>
+    <tabTrigger>ServerEvent</tabTrigger>
+    <description>SERVER/ Register an Event on the server</description>
+	<scope>source.lua</scope>
+</snippet>

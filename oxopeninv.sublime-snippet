@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:openInventory(${1:type}, ${2:data})
+    ]]></content>
+    <tabTrigger>oxopeninv</tabTrigger>
+    <description>CLIENT/Opens an inventory using the passed data.</description>
+	<scope>source.lua</scope>
+</snippet>

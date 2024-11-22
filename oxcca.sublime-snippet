@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Callback/Lua/Client#libcallbackawait
+lib.callback.await(${1:name}, ${2:false:default}, ...)
+
+    ]]></content>
+    <tabTrigger>oxcca</tabTrigger>
+    <description>CLIENT/ OX Callback Await</description>
+	<scope>source.lua</scope>
+</snippet>

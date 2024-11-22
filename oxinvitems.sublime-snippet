@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:Items()
+    ]]></content>
+    <tabTrigger>oxinvitems</tabTrigger>
+    <description>CLIENT/Returns a table of all registered items. The format is as defined in data/items.lua.</description>
+	<scope>source.lua</scope>
+</snippet>

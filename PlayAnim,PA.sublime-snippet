@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.PlayAnim(${1:animDict}, ${2:animName}, ${3:upperBodyOnly}, ${4:duration})
+
+
+    ]]></content>
+    <tabTrigger>PlayAnim,PA</tabTrigger>
+    <description>CLIENT/Play Animation</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+local ${1:variable} = lib.addKeybind({
+    name = ${2:name},
+    description = ${3:description},
+    defaultKey = ${4:key},
+    onPressed = function(self)
+       -- print(('pressed %s (%s)'):format(self.currentKey, self.name))
+    end,
+    onReleased = function(self)
+       -- print(('released %s (%s)'):format(self.currentKey, self.name))
+    end
+})
+--https://overextended.dev/ox_lib/Modules/AddKeybind/Client#enable--disable-keybinds
+--${1:variable}:disable(true) -- disables the keybind
+--${1:variable}:disable(false) -- enables the keybind
+    ]]></content>
+    <tabTrigger>oxakey</tabTrigger>
+    <description>CLIENT / OX Add Key bind</description>
+	<scope>source.lua</scope>
+</snippet>

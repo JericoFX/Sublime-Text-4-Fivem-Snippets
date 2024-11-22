@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+--@param header string
+--@param content string
+--@param centered boolean
+--@param cancel boolean
+--https://overextended.dev/ox_lib/Modules/Interface/Client/alert
+local ${1:variable} = lib.alertDialog({
+    header = ${2:header},
+    content = ${3:content},
+    centered = ${4:center} ,
+    cancel = ${5:center} ,
+})
+    ]]></content>
+    <tabTrigger>oxalert</tabTrigger>
+    <description>Create an alert dialog</description>
+	<scope>source.lua</scope>
+</snippet>

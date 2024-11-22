@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["qb-core"]:ChangeText(${1:text},${2:position}) 
+    ]]></content>
+    <tabTrigger>ChangeNuiText,ct,ChangeText,Ctext</tabTrigger>
+    <description>CLIENT/ Change DrawNuiText First argument is a string with text, second is optional</description>
+	<scope>source.lua</scope>
+</snippet>

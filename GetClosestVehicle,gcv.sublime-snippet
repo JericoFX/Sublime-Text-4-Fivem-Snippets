@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local closeVeh,closeDist = QBCore.Functions.GetClosestVehicle(${1:coords})
+    ]]></content>
+    <tabTrigger>GetClosestVehicle,gcv</tabTrigger>
+    <description>CLIENT/GetClosestVehicle return closest vehicle and the distance, argument coords is optional</description>
+	<scope>source.lua</scope>
+</snippet>

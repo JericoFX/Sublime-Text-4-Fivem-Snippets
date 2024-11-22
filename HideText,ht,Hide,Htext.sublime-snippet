@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["qb-core"]:HideText() 
+    ]]></content>
+    <tabTrigger>HideText,ht,Hide,Htext</tabTrigger>
+    <description>CLIENT/ Hide TextHide NUI text</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.DeleteVehicle(${1:vehicle})
+    ]]></content>
+    <tabTrigger>DeleteVehicle</tabTrigger>
+    <description>CLIENT/DeleteVehicle Delete a vehicle</description>
+	<scope>source.lua</scope>
+</snippet>

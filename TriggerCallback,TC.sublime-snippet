@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.TriggerCallback(${1:name},function(${2:returnValue})
+
+end,${3:Datasend})
+    ]]></content>
+    <tabTrigger>TriggerCallback,TC</tabTrigger>
+    <description>CLIENT/Trigger a server event with a return of a value</description>
+	<scope>source.lua</scope>
+</snippet>

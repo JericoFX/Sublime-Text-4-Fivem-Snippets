@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/notify#libnotify
+TriggerClientEvent('ox_lib:notify', source, {
+    title = ${1:title},
+    description = ${2:description},
+    type = 'success', --'inform' or 'error' or 'success'or 'warning'
+    duration = 3000
+})
+    ]]></content>
+    <tabTrigger>oxnoti</tabTrigger>
+    <description>SERVER / OX Notification</description>
+	<scope>source.lua</scope>
+</snippet>

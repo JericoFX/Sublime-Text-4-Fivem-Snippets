@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.GetVehicles()
+    ]]></content>
+    <tabTrigger>GetVehicles</tabTrigger>
+    <description>CLIENT/GetVehicles Get all vehicles from client</description>
+	<scope>source.lua</scope>
+</snippet>

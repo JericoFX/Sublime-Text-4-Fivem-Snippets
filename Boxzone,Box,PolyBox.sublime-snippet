@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+local ${1:Name}= BoxZone:Create(${2:Vector3}, ${3:W}, ${4:H}, {
+    name=${5:name},
+    debugPoly=false,
+})
+${1:Name}:onPlayerInOut(function(isPointInside, point)
+end)
+    ]]></content>
+    <tabTrigger>Boxzone,Box,PolyBox</tabTrigger>
+    <description>CLIENT/ Box Zone, Create a PolyZone Box</description>
+	<scope>source.lua</scope>
+</snippet>

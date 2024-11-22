@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["qb-core"]:DrawText(${1:text},${2:position}) 
+    ]]></content>
+    <tabTrigger>DrawNuiText,dw,Draw,Text,Dtext</tabTrigger>
+    <description>CLIENT/Draw Nui Text first argument is the text, the second one is the position, the last argument is optional</description>
+	<scope>source.lua</scope>
+</snippet>

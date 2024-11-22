@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local closeObj,closeDist = QBCore.Functions.GetClosestObject(${1:coords})
+    ]]></content>
+    <tabTrigger>GetClosestObject</tabTrigger>
+    <description>CLIENT/GetClosestObject return closest Object and the distance, argument coords is optional</description>
+	<scope>source.lua</scope>
+</snippet>

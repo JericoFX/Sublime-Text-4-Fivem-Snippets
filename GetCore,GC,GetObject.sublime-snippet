@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local QBCore = exports["qb-core"]:GetCoreObject()
+    ]]></content>
+    <tabTrigger>GetCore,GC,GetObject</tabTrigger>
+    <description>CLIENT/SERVER Get the QBCore object and all the functions</description>
+	<scope>source.lua</scope>
+</snippet>

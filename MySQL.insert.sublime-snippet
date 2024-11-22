@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/insert 
+MySQL.insert(${1:query},{${2:args}},function(cb) 
+
+end)
+    ]]></content>
+    <tabTrigger>MySQL.insert</tabTrigger>
+    <description>SERVER/Inserts a new entry into the database and returns the insert id for the row, if valid.</description>
+	<scope>source.lua</scope>
+</snippet>

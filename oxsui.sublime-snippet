@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/textui#libshowtextui
+lib.showTextUI(${1:text})
+    ]]></content>
+    <tabTrigger>oxsui</tabTrigger>
+    <description>CLIENT/ OX Show TextUI</description>
+	<scope>source.lua</scope>
+</snippet>

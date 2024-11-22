@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.Notify(${1:Text}, "primary", ${3:length})
+    ]]></content>
+    <tabTrigger>Notify</tabTrigger>
+    <description>CLIENT/Send a Nofitication from the client</description>
+	<scope>source.lua</scope>
+</snippet>

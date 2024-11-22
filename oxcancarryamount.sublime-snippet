@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#cancarryamount
+exports.ox_inventory:CanCarryAmount(${1:inv}, ${2:item})
+    ]]></content>
+    <tabTrigger>oxcancarryamount</tabTrigger>
+    <description>SERVER/Returns the amount a player can hold based on available weight.</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+--https://github.com/mkafrin/PolyZone/wiki/EntityZone
+
+local ${1:variable} = EntityZone:Create(${2:entity}, {
+    name=${3:name},
+    debugPoly=false,
+})
+${1:variable}:onEntityDamaged(function(entityDied, attacker, weaponHash, isMelee)
+    -- Do stuff here!
+    -- You could destroy the zone when the entity is destroyed for example:
+  --  if entityDied then entity_zone:destroy() end
+end)
+    ]]></content>
+    <tabTrigger>EntityZone,PEZone</tabTrigger>
+    <description>CLIENT/ Create a Entity Zone, </description>
+	<scope>source.lua</scope>
+</snippet>

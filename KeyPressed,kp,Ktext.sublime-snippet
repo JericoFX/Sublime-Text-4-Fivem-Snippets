@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["qb-core"]:KeyPressed() 
+    ]]></content>
+    <tabTrigger>KeyPressed,kp,Ktext</tabTrigger>
+    <description>CLIENT/ KeyPressed Emulate a key press effect and hide the NUI Text</description>
+	<scope>source.lua</scope>
+</snippet>

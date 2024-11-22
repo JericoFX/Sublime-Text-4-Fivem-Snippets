@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#getitemcount
+exports.ox_inventory:GetItemCount(${1:inv}, ${2:itemName}, ${3:metadata}, ${4:strict})
+    ]]></content>
+    <tabTrigger>oxgetitemcount</tabTrigger>
+    <description>SERVER/Get the total item count for all items in an inventory with the given name and metadata.</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.SetVehicleProperties(${1:vehicle},${2:props})
+--Here you can use QBCore.Functions.SetVehicleProperties(vehicle,QBCore.Functions.GetVehicleProperties(vehicle))
+    ]]></content>
+    <tabTrigger>SetVehicleProperties,svp</tabTrigger>
+    <description>CLIENT/SetVehicleProperties Set all the properties of a vehicle passed</description>
+	<scope>source.lua</scope>
+</snippet>

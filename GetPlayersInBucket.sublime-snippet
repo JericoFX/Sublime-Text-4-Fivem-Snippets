@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local Current = QBCore.Functions.GetPlayersInBucket(${1:bucket})
+
+    ]]></content>
+    <tabTrigger>GetPlayersInBucket</tabTrigger>
+    <description>SERVER/Will return an array of all the player ids inside the current bucket or false</description>
+	<scope>source.lua</scope>
+</snippet>

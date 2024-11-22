@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function log(text)
+print(json.encode(text, { pretty = true, indent = "  ", align_keys = true }))
+end
+    ]]></content>
+    <tabTrigger>log</tabTrigger>
+    <description>CLIENT/ Print in the console a message</description>
+	<scope>source.lua</scope>
+</snippet>

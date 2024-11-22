@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["qb-radialmenu"]:AddOption({--[[table here]]})
+    ]]></content>
+    <tabTrigger>AddRadial,CreateRadialOption</tabTrigger>
+    <description>Add a new option in qb-radialmenu</description>
+	<scope>source.lua</scope>
+</snippet>

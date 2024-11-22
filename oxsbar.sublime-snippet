@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+if lib.progressBar({
+    duration = 2000,
+    label = ${1:label},
+    useWhileDead = false,
+    canCancel = true,
+    disable = {
+        --car = true,
+    },
+    anim = {
+       -- dict = 'mp_player_intdrink',
+       -- clip = 'loop_bottle'
+    },
+    prop = {
+       -- model = `prop_ld_flow_bottle`,
+       -- pos = vec3(0.03, 0.03, 0.02),
+       -- rot = vec3(0.0, 0.0, -1.5)
+    },
+}) then 
+    print('Do stuff when complete') 
+else 
+    print('Do stuff when cancelled') 
+end
+    ]]></content>
+    <tabTrigger>oxsbar</tabTrigger>
+    <description>CLIENT/ OX Square Progress Bar</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.RequestAnimDict(${1:animationDict})
+
+
+    ]]></content>
+    <tabTrigger>DrawText3D</tabTrigger>
+    <description>CLIENT/Request Animation Dictionary, USE PlayAnim it already load the animation before playing</description>
+	<scope>source.lua</scope>
+</snippet>

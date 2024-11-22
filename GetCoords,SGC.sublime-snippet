@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local Coords = QBCore.Functions.GetCoords(${1:entity})
+    ]]></content>
+    <tabTrigger>GetCoords,SGC</tabTrigger>
+    <description>SERVER/Get the coords of the entity passed, return a vector4(x,y,z,w) w is heading</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+--https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/
+RegisterCommand('+${1:command}', function()
+
+end, false)
+RegisterCommand('-${1:command}', function()
+
+end, false)
+RegisterKeyMapping('+${1:command}', '${2:definition}', '${3:type}', '${4:button}')
+    ]]></content>
+    <tabTrigger>KeyMapping,km</tabTrigger>
+    <description>CLIENT/ Register a Key event, Command: is the name of the command, Definition: is the description, Type: This can be, mouse, keyboard, and the Button: is the key to press to fire the event</description>
+	<scope>source.lua</scope>
+</snippet>

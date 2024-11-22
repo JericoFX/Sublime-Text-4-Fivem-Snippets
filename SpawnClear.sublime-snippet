@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+local isClear = QBCore.Functions.SpawnClear(${1:coords},${2:radius})
+    ]]></content>
+    <tabTrigger>SpawnClear</tabTrigger>
+    <description>CLIENT/SpawnClear return true or false if the coords are cleasr of others vehicles</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+-- Return the vector 4 and with x,y,z and w
+local ${1:variable} = QBCore.Functions.GetCoords(${2:entity})
+    ]]></content>
+    <tabTrigger>GetCoords</tabTrigger>
+    <description>CLIENT/Get the coordinates from an entity, returns a vector3</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["fivem-appearance"]:getPedComponents(--[[PlayerPedId()]])
+    ]]></content>
+    <tabTrigger>getPedComponents,APGComp</tabTrigger>
+    <description>CLIENT/ Get Player Components</description>
+	<scope>source.lua</scope>
+</snippet>

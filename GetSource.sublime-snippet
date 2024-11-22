@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local source = QBCore.Functions.GetSource(${1:identifier})
+
+    ]]></content>
+    <tabTrigger>GetSource</tabTrigger>
+    <description>SERVER/Return the source of the passed identifier</description>
+	<scope>source.lua</scope>
+</snippet>

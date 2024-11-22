@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/prepare 
+local ${1:variable} = MySQL.prepare.await(${2:query},{${3:args}})
+    ]]></content>
+    <tabTrigger>MySQL.prepare.await</tabTrigger>
+    <description>SERVER/Prepare can be used to execute frequently called queries faster and accepts multiple sets of parameters to be used with a single query.</description>
+	<scope>source.lua</scope>
+</snippet>

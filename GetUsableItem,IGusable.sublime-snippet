@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:GetUsableItem(--[[itemName]])
+    ]]></content>
+    <tabTrigger>GetUsableItem,IGusable</tabTrigger>
+    <description>SERVER/ Check if the player can use X item</description>
+	<scope>source.lua</scope>
+</snippet>

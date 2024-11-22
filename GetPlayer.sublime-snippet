@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local Player = QBCore.Functions.GetPlayer(${1:source})
+
+    ]]></content>
+    <tabTrigger>GetPlayer</tabTrigger>
+    <description>SERVER/Return all the data from the respective source</description>
+	<scope>source.lua</scope>
+</snippet>

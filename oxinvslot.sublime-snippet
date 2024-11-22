@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:useSlot(${1:slot})
+    ]]></content>
+    <tabTrigger>oxinvslot</tabTrigger>
+    <description>CLIENT/Uses the item in the given inventory slot.</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:displayMetadata(${1:metadata}, ${2:value})
+    ]]></content>
+    <tabTrigger>oxinvdmeta</tabTrigger>
+    <description>CLIENT/Sets a metadata property to display in the tooltip.</description>
+	<scope>source.lua</scope>
+</snippet>

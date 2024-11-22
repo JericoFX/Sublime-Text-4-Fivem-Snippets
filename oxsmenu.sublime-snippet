@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/menu#libshowmenu
+lib.showMenu(${1:id})
+    ]]></content>
+    <tabTrigger>oxsmenu</tabTrigger>
+    <description>OX Show Menu</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/query
+local ${1:variable} = MySQL.query.await(${1:query}, {{${2:args}})
+    ]]></content>
+    <tabTrigger>MySQL.query.await</tabTrigger>
+    <description>SERVER/Generic function that can be utilised for any query. Promise</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#search
+exports.ox_inventory:Search(${1:inv}, ${2:search}, ${3:item}, ${4:metadata})
+    ]]></content>
+    <tabTrigger>oxsearch</tabTrigger>
+    <description>SERVER/Searches an inventory for a specified item.</description>
+	<scope>source.lua</scope>
+</snippet>

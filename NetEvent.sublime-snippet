@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+RegisterNetEvent(${1:name},function(args) 
+
+end)
+    ]]></content>
+    <tabTrigger>NetEvent</tabTrigger>
+    <description>CLIENT/ Register an Event</description>
+	<scope>source.lua</scope>
+</snippet>

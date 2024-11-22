@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+--${1:key} =  ped or vehicle or seat or weapon
+lib.onCache(${1:key}, function(value)
+end)
+    ]]></content>
+    <tabTrigger>oxcache</tabTrigger>
+    <description>CLIENT/ OX On Cache</description>
+	<scope>source.lua</scope>
+</snippet>

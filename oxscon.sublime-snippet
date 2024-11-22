@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/context#libshowcontext
+lib.showContext(${1:id})
+    ]]></content>
+    <tabTrigger>oxscon</tabTrigger>
+    <description>Ox Show Context</description>
+	<scope>source.lua</scope>
+</snippet>

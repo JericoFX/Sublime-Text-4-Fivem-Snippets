@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["fivem-appearance"]:setPlayerModel(--[[mp_m_freemode_01]])
+    ]]></content>
+    <tabTrigger>setPlayerModel,APSModel</tabTrigger>
+    <description>CLIENT/ Set Player Model</description>
+	<scope>source.lua</scope>
+</snippet>

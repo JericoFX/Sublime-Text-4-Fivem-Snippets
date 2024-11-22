@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports['qb-inventory']:UseItem(--[[source, item]])
+    ]]></content>
+    <tabTrigger>useitem,Iuse</tabTrigger>
+    <description>SERVER/ Use Item</description>
+	<scope>source.lua</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local Player = QBCore.Functions.GetPlayerByCitizenId(${1:citizenid})
+
+    ]]></content>
+    <tabTrigger>GetPlayerByCitizenId</tabTrigger>
+    <description>SERVER/Return all the data from the respective citizenid</description>
+	<scope>source.lua</scope>
+</snippet>

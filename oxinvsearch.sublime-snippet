@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+exports.ox_inventory:Search(${1:search}, ${2:item}, ${3:metadata})
+  -- search: 'slots' or 'count'
+  -- 'slots' returns a table of slots where the item was found at.
+  -- 'count' returns the count of the specified item in player's inventory. If searching for multiple items returns key-value pairs of itemName = count.
+  -- item: table or string
+  -- Can be a single item name or array of item names.
+  -- metadata?: table or string
+  -- If metadata is provided as a string it will search the item's metadata.type property.
+
+    ]]></content>
+    <tabTrigger>oxinvsearch</tabTrigger>
+    <description>CLIENT/Searches the inventory for an item, or list of items, with the result varying based on the first argument.</description>
+	<scope>source.lua</scope>
+</snippet>

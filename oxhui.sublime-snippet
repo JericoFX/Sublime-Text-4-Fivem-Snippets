@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/textui#libshowtextui
+lib.hideTextUI()
+    ]]></content>
+    <tabTrigger>oxhui</tabTrigger>
+    <description>CLIENT/ OX Hide TextUI</description>
+	<scope>source.lua</scope>
+</snippet>

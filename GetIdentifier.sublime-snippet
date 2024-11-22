@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+local idType = QBCore.Functions.GetIdentifier(${1:source},${2:idtype})
+
+    ]]></content>
+    <tabTrigger>GetIdentifier</tabTrigger>
+    <description>SERVER/Return the passed identifier or nil if nothing is found</description>
+	<scope>source.lua</scope>
+</snippet>

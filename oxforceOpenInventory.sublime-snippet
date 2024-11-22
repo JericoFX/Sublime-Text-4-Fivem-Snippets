@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_inventory/Functions/Server#forceopeninventory
+exports.ox_inventory:forceOpenInventory(${1:playerId}, ${2:invType}, ${3:data})
+    ]]></content>
+    <tabTrigger>oxforceOpenInventory</tabTrigger>
+    <description>SERVER/Opens an inventory using the passed data. Forces a player to open an inventory, without usual security checks (groups, coords).</description>
+	<scope>source.lua</scope>
+</snippet>

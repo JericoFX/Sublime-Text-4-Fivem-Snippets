@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.GetObjects()
+    ]]></content>
+    <tabTrigger>GetObjects</tabTrigger>
+    <description>CLIENT/GetObjects</description>
+	<scope>source.lua</scope>
+</snippet>

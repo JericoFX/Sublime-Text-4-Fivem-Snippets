@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["ps-zones"]:DestroyZone("${name:requeried}")
+    ]]></content>
+    <tabTrigger>PSDestroy</tabTrigger>
+    <description>CLIENT/ Destroy a zone, need to pass a name</description>
+	<scope>source.lua</scope>
+</snippet>

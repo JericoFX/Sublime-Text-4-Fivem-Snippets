@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+QBCore.Functions.LoadModel(${1:model})
+    ]]></content>
+    <tabTrigger>LoadModel</tabTrigger>
+    <description>CLIENT/Load a Model into memory</description>
+	<scope>source.lua</scope>
+</snippet>

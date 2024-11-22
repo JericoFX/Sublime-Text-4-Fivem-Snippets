@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+local MenuData = {
+        {
+            header = "${1:HeaderTitle}",
+            isMenuHeader = true, 
+        },
+        {
+            header = "Sub Menu Button",
+            txt = "This goes to a sub menu",
+            params = {
+                event = 
+                args = {
+                    number = 1,
+                }
+            }
+        },
+    }
+exports.qb-menu:openMenu(MenuData)
+    ]]></content>
+    <tabTrigger>Menu,CreateMenu</tabTrigger>
+    <description>CLIENT/Open Create a new Menu</description>
+	<scope>source.lua</scope>
+</snippet>

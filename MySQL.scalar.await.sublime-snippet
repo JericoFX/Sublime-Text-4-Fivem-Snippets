@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/scalar
+local ${1:variable} = MySQL.scalar.await(${2:query}, {${3:args}})
+    ]]></content>
+    <tabTrigger>MySQL.scalar.await</tabTrigger>
+    <description>SERVER/Returns the first column for a single row.Promise</description>
+	<scope>source.lua</scope>
+</snippet>

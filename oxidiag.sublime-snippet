@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.dev/ox_lib/Modules/Interface/Client/input#libinputdialog
+--@param variable string
+--@param dialogTitle string
+--@param options table https://overextended.dev/ox_lib/Modules/Interface/Client/input#field-type-properties
+--@return table
+local ${1:variable} = lib.inputDialog(${2:dialogTitle}, {--[[options]]})
+    ]]></content>
+    <tabTrigger>oxidiag</tabTrigger>
+    <description>Ox Input Dialog</description>
+	<scope>source.lua</scope>
+</snippet>

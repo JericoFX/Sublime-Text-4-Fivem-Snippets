@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+--https://overextended.github.io/docs/oxmysql/Usage/transaction
+local ${1:queries} = {
+  {query = "",values = {} }
+}
+local result = MySQL.transaction.await(${1:queries})
+    ]]></content>
+    <tabTrigger>MySQL.transaction.await</tabTrigger>
+    <description>SERVER/A transaction executes multiple queries and commits them only if all succeed. If one fails, none of the queries are committed. The return value is a boolean, which is the result of the transaction.Promise</description>
+	<scope>source.lua</scope>
+</snippet>

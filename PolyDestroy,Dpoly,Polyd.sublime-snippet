@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:zoneName}:destroy()
+    ]]></content>
+    <tabTrigger>PolyDestroy,Dpoly,Polyd</tabTrigger>
+    <description>CLIENT/ Delete a PolyZone</description>
+	<scope>source.lua</scope>
+</snippet>

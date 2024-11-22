@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+exports["ps-zones"]:CreateBoxZone("${name:requeried}", vector3(${2:x},${3:y},${4:z}), ${5:length}, ${56:width}--[[,data is optional]])
+    ]]></content>
+    <tabTrigger>PSbox</tabTrigger>
+    <description>CLIENT/ Create a PS:BoxZone</description>
+	<scope>source.lua</scope>
+</snippet>
